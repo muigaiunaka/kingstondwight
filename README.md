@@ -1,2 +1,0 @@
-# kingstondwight
-Kingston Dwight Associates
