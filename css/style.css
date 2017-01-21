@@ -1,34 +1,60 @@
-/*
- * This css file includes styles added in the jekyll port of this theme.
- * To find the original style.css that ships with Airspace, read airspace.css
- *
- */
-
- .italic {
-   font-style: italic;
- }
-
- .bold {
-   font-weight: bold;
- }
-
- .center-text {
-   text-align: center;
- }
-
-.post-area {
-  padding: 40px;
-  width: 100%;
-  min-height: 150px;
-  background-color: white;
-  border-bottom: 1px dotted #ddd;
+.team-individual {
+    height: 360px;
+    width: 100%;
+    margin: 30px auto;
 }
 
-.post-area a:link, .post-area a:visited {
-  font-size: 30px;
-  color: #333;
+.team-individual div {
+    height: 100%;
+    float: left;
+    display: inline-block;
 }
 
-.post-area a:hover {
-  color: #0D0017;
+.team-individual div:nth-of-type(odd) {
+    width: 360px;
+    background-color: #ddd;
 }
+
+.team-individual div img {
+    height: 100%;
+    width: auto;
+}
+
+.team-post img {
+    height: auto;
+    width: 100%;
+}
+
+.center-block {
+    float: none!important;
+}
+
+
+ /*.italic {*/
+   /*font-style: italic;*/
+ /*}*/
+
+ /*.bold {*/
+   /*font-weight: bold;*/
+ /*}*/
+
+ /*.center-text {*/
+   /*text-align: center;*/
+ /*}*/
+
+/*.post-area {*/
+  /*padding: 40px;*/
+  /*width: 100%;*/
+  /*min-height: 150px;*/
+  /*background-color: white;*/
+  /*border-bottom: 1px dotted #ddd;*/
+/*}*/
+
+/*.post-area a:link, .post-area a:visited {*/
+  /*font-size: 30px;*/
+  /*color: #333;*/
+/*}*/
+
+/*.post-area a:hover {*/
+  /*color: #0D0017;*/
+/*}*/

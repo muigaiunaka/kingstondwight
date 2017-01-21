@@ -1,19 +1,21 @@
 <!-- Header Start -->
-<header>
+<header class="flex-center">
     <!-- social media -->
-    <ul>
-        <a href="facebook.com"><li></li></a>
-        <a href="linkedin.com"><li></li></a>
-        <a href="google.com"><li></li></a>
+    <ul class="col-xs-12 social-media wrapper">
+        <a href="facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </ul>
-    <img src="logo.png">
-    <h2>Making the Best Match is Our Passion</h2>
-    <nav>
+    <div class="col-xs-12 wrapper">
+        <img src="{{ site.baseurl }}/img/kda_logo.png" class="col-xs-2">
+        <h2 class="col-xs-10 text-right">Making the Best Match is Our Passion</h2>
+    </div>
+    <nav class="col-xs-12 wrapper">
         <ul>
-            <a><li>Build Your Team</li></a>
-            <a><li>Advance Your Career</li></a>
-            <a><li>Submit Resume</li></a>
-            <a><li>Meet Our Team</li></a>
+            <a href="{{site.baseurl}}/buildteam"><li>Build Your Team</li></a>
+            <a href="{{site.baseurl}}/career"><li>Advance Your Career</li></a>
+            <a href="{{site.baseurl}}/resume"><li>Submit Resume</li></a>
+            <a href="{{site.baseurl}}/team"><li>Meet Our Team</li></a>
         </ul>
     </nav>
 </header>
