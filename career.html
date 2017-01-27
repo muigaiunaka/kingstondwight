@@ -5,6 +5,59 @@ permalink: /career/
 ---
 
 <!-- Career Start -->
-<section class="career">
+<section class="careerBanner">
     <h1>Advance Your Career</h1>
+</section>
+<section class="wrapper col-xs-12 bg-gray">
+    <div class="col-xs-12 bg-white wrapper">
+        <h2>Be Prepared for Opportunity</h2>
+        <p>
+            We advise individuals to contact us the first time they think it is time to consider other opportunities. It is
+            always better to be proactive than reactive. Securing a new position requires addressing important questions
+            such as;
+        </p>
+
+        <ul>
+            <li>Why do I want to make a change?</li>
+            <li>How do personal needs affect your decision making?</li>
+            <li>What do I do well?</li>
+            <li>What are my professional goals?</li>
+        </ul>
+
+        <p>
+            Kingston Dwight Associates can help you assess your situation and create a plan to evaluate possible
+            opportunities.
+        </p>
+        <ul>
+            <li>You just got your CPA designation; is it time to make a change?</li>
+            <li>You know it is time to build out your skill set but you are stuck in the same role?</li>
+            <li>Your prospects for advancement are blurry at best?</li>
+        </ul>
+
+    </div>
+    <div class="action-banner col-xs-12 wrapper">
+        <p>
+            Start with an initial telephone conversation or make an appointment to meet with us.
+            Having a plan is an important step in advancing your career.
+        </p>
+        <a><button class="whiteBtn">Submit Resume</button></a>
+    </div>
+    <div class="col-xs-12 bg-white wrapper">
+        <h2>Active Opportunities</h2>
+        <p>
+            This selection is a small sampling of the number of roles in which we are currently involved. At Kingston
+            Dwight Associates, we strongly believe that you have to help that right opportunity find you and be
+            prepared. We are most interested in speaking with you when you think it is time for a change. Contacting us
+            is a great first step!
+        </p>
+        {% for member in site.categories.positions %}
+
+        {% endfor %}
+        <a>Vice President</a>
+        <a>Vice President</a>
+        <a>Vice President</a>
+        <a>Vice President</a>
+
+        <a href="{{ site.baseurl }}/opportunities"><button>Relocation Opportunities</button></a>
+    </div>
 </section>

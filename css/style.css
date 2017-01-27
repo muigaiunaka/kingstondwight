@@ -141,6 +141,24 @@ footer small {
 
 .hero-banner {
     width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+}
+
+.hero-banner-content {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 66%;
+    width: 100%;
+    color: #fff;
+}
+
+.hero-banner-content h2 {
+    align-self: flex-end;
+    color: #fff;
 }
 
 img {
@@ -148,6 +166,18 @@ img {
     height: auto;
 }
 
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-blue {
+    background-color: rgb(51,115,170);
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -250,6 +280,59 @@ img {
 
 .about .row {
     background: #fff;
+    margin: 30px auto;
+}
+
+/*--------------------------------------------------------------
+# Content Page Template Styles
+--------------------------------------------------------------*/
+
+.careerBanner {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+    ), url('../img/BannerAdvanceYourCareer.png') fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    height: 480px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+
+
+.yourTeamBanner {
+    background-image: url('../img/BannerAdvanceYourCareer.png');
+}
+
+.action-banner {
+    color: #fff;
+    background-color: rgb(51,115,170);
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.action-banner button {
+    display: block;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+
+.resume {
     margin: 30px auto;
 }
 

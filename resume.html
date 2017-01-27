@@ -5,31 +5,56 @@ permalink: /resume/
 ---
 
 <!-- Resume Start -->
-<section class="col-xs-12 wrapper">
+<section class="resume col-xs-12 wrapper">
     <div>
-        <h2>Submit Resume</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        <h2 class="col-xs-12">Submit Resume</h2>
+        <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
             dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
             suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
         </p>
         <form>
-            <label for="resumeName">Full Name</label>
-            <input id="resumeName" class="form-control" type="text" required placeholder="Full Name" />
+            <fieldset class="col-md-6">
+                <label for="resumeName">Full Name</label>
+                <input id="resumeName" class="form-control" type="text" required placeholder="Full Name" />
+            </fieldset>
 
-            <label for="reason">Reason for Inquiry</label>
-            <input id="reason" class="form-control" type="text" required />
+            <fieldset class="col-xs-12 col-md-6">
+                <label for="reason">Reason for Inquiry</label>
+                <select id="reason" class="form-control" type="text" required >
+                    <option disabled selected>Reason for Inquiry</option>
+                    <option>Reason 1</option>
+                    <option>Reason 2</option>
+                    <option>Reason 3</option>
+                    <option>Reason 4</option>
+                </select>
+            </fieldset>
 
-            <label for="resumeEmail">Email</label>
-            <input id="resumeEmail" class="form-control" type="text" required placeholder="Email"/>
+            <fieldset class="col-xs-12 col-md-6">
+                <label for="resumeEmail">Email</label>
+                <input id="resumeEmail" class="form-control" type="text" required placeholder="Email"/>
+            </fieldset>
 
-            <label for="resumePhone">Phone</label>
-            <input id="resumePhone" class="form-control" type="text" placeholder="281-330-8004"/>
+            <fieldset class="col-xs-12 col-md-6">
+                <label for="resumePhone">Phone</label>
+                <input id="resumePhone" class="form-control" type="text" placeholder="281-330-8004"/>
+            </fieldset>
 
-            <label for="resumeMessage">Message</label>
-            <textarea id="resumeMessage" class="form-control"></textarea>
+            <fieldset class="col-xs-12">
+                <label for="resumeMessage">Message</label>
+                <textarea id="resumeMessage" class="form-control"></textarea>
+            </fieldset>
+            <fieldset class="col-md-12">
+                <label></label>
+                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">Upload Resume
+                </small>
+            </fieldset>
+            <fieldset class="col-xs-12 col-md-4 col-md-offset-4 col-lg-2 col-lg-offset-5">
+            <button class="col-xs-12" type="submit" >Submit</button>
+            </fieldset>
+
         </form>
 
-        <a><button>Submit</button></a>
     </div>
 
 </section>
