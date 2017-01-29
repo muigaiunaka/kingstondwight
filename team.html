@@ -6,11 +6,11 @@ permalink: /team/
 
 <!-- Team Start -->
 {% for member in site.categories.team %}
-<section class="wrapper team-individual">
-    <div>
-        <img src="{{ site.baseurl }}/img/team/{{member.photo}}" />
+<section class="wrapper team-individual col-xs-12">
+    <div class="col-xs-12 col-sm-4">
+        <img src="{{ site.baseurl }}/img/team/{{member.photo}}" class="img-responsive"/>
     </div>
-    <div class="col-md-7">
+    <div class="col-xs-12 col-sm-8">
         <h3>{{ member.title }} , {{ member.position }}</h3>
         <p>{{ member.content | strip_html | truncatewords: 60 }}</p>
         <a href="{{ member.url | prepend: site.baseurl }}"><button>Read More</button></a>

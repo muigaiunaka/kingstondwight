@@ -6,7 +6,7 @@ permalink: /career/
 
 <!-- Career Start -->
 <section class="careerBanner">
-    <h1>Advance Your Career</h1>
+    <h1> {{ page.title }} </h1>
 </section>
 <section class="wrapper col-xs-12 bg-gray">
     <div class="col-xs-12 bg-white wrapper">
@@ -53,10 +53,12 @@ permalink: /career/
         {% for member in site.categories.positions %}
 
         {% endfor %}
-        <a>Vice President</a>
-        <a>Vice President</a>
-        <a>Vice President</a>
-        <a>Vice President</a>
+        <ul>
+        <a><li>Vice President</li></a>
+        <a><li>Vice President</li></a>
+        <a><li>Vice President</li></a>
+        <a><li>Vice President</li></a>
+        </ul>
 
         <a href="{{ site.baseurl }}/opportunities"><button>Relocation Opportunities</button></a>
     </div>
