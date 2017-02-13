@@ -1,8 +1,9 @@
 ---
+title: This post demonstrates post content styles
+date: '2016-05-20 00:00:00'
 layout: post
-title: "This post demonstrates post content styles"
-author: "Bart Simpson"
-meta: "Springfield"
+author: Bart Simpson
+meta: Springfield
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
