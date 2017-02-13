@@ -1,6 +1,7 @@
 ---
 title: Build Your Team
 date: '2017-02-13 11:17:33'
+bannerimage: "/uploads/2017/02/13/BannerBuildYourTeam.png"
 ---
 Our focus is the recruitment of financial, accounting, consulting and financial services professionals.
 
