@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: Airspace
+title: Kingston Dwight Associates
 subtitle: "A free HTML5 agency template"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
@@ -42,8 +42,12 @@ descriptions:
 defaults:
   - scope:
         path: ""
-        type: posts
+        type: "posts"
     values:
         thumbnail: ""
         categories: []
         description: ""
+  - scope:
+      path: ""
+    values:
+      layout: "banner-and-content"

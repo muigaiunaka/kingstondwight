@@ -1,7 +1,7 @@
 ---
 layout: banner-and-content
 title: Build Your Team
-permalink: /buildteam/
+permalink: /buildteams/
 ---
 	Our focus is the recruitment of financial, accounting, consulting and financial services professionals.
 
