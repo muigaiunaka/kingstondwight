@@ -585,7 +585,7 @@ img {
         display: none;
     }
 
-    .our-focus div * {
+    .our-focus div h3, .our-focus div a {
         text-align: center;
         width: 100%;
     }
