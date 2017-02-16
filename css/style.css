@@ -413,6 +413,18 @@ img {
 }
 
 /*--------------------------------------------------------------
+# Content Pages
+--------------------------------------------------------------*/
+
+.network {
+    margin: 15px auto;
+}
+
+.testimonials blockquote{
+
+}
+
+/*--------------------------------------------------------------
 # Hamburger Menu
 --------------------------------------------------------------*/
 
@@ -493,7 +505,6 @@ img {
 }
 
 .no-scroll {
-    position: fixed;
     overflow: hidden;
 }
 /*--------------------------------------------------------------
@@ -525,10 +536,17 @@ img {
         text-align: center;
     }
 
+    .our-focus div h3, .our-focus div a {
+        text-align: center;
+    }
+
+    .hero-banner {
+        max-height: 360px;
+    }
+
     .hero-banner img {
         width: auto;
         height: auto;
-        max-height: 240px;
     }
 
     .content-container {
@@ -567,10 +585,18 @@ img {
         display: none;
     }
 
+    .our-focus div * {
+        text-align: center;
+        width: 100%;
+    }
+
     .hero-banner img {
         width: auto;
         height: auto;
-        max-height: 300px;
+    }
+
+    .hero-banner {
+        max-height: 360px;
     }
 
     .logo {
