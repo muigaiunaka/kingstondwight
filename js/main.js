@@ -56,7 +56,7 @@ $(document).ready(function(){
                 .addEventListener("click", function () {
                     this.classList.toggle("active");
                     $(".full-screen-mobile-menu").toggleClass("show");
-                    $("body").toggleClass("no-scroll");
+                    $("body, html").toggleClass("no-scroll");
                 });
     //    }
     //     else {
