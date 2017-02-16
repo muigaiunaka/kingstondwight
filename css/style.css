@@ -137,13 +137,6 @@ header nav {
 }
 
 header nav ul {
-    /*display: -ms-flexbox;      !* TWEENER - IE 10 *!*/
-    /*display: -webkit-flex;     !* NEW - Chrome *!*/
-    /*display: flex;             !* NEW, Spec - Opera 12.1, Firefox 20+ *!*/
-    /*justify-content: space-around;*/
-    /*-webkit-justify-content: space-around;*/
-    /*align-items: center;*/
-    /*-webkit-align-items: center;*/
     display: block;
     text-decoration: none;
     list-style: none;
@@ -208,7 +201,7 @@ footer small {
     color: #fff;
 }
 
-.hero-banner-content h2 {
+.hero-banner-content h3 {
     align-self: flex-end;
     color: #fff;
 }
@@ -293,7 +286,7 @@ img {
     text-align: center;
 }
 
-.our-focus h2 {
+.our-focus h1, .our-focus h2, .our-focus h3, .our-focus h4 {
     color: #fff;
 }
 
@@ -567,12 +560,13 @@ img {
 
     header > div > h3 {
         text-align: center;
+        display: none;
     }
 
     .hero-banner img {
         width: auto;
         height: auto;
-        max-height: 240px;
+        max-height: 300px;
     }
 
     .logo {
