@@ -61,7 +61,6 @@ a {
 a:hover {
     cursor: pointer;
     text-decoration: none;
-    list-style: none;
 }
 
 p {
@@ -132,7 +131,7 @@ header > div > h3 {
 }
 
 header nav {
-    background-color: #fff;
+    background-color: lightgrey;
     border-top: 1px solid rgb(51,115,170);
     border-bottom: 1px solid rgb(51,115,170);
 }
@@ -206,7 +205,6 @@ footer small {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
-    text-align: center;
     color: #fff;
 }
 
@@ -221,7 +219,7 @@ img {
 }
 
 .logo {
-    min-width: 200px;
+    min-width: 250px;
 }
 
 
@@ -293,8 +291,6 @@ img {
     float: left;
     color: #fff;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .our-focus h2 {
@@ -326,6 +322,11 @@ img {
 
 .our-focus div p {
     margin: 0 auto;
+}
+
+.our-focus div a button {
+    background-color: #fff;
+    color: rgb(51,115,170);
 }
 
 .process {
