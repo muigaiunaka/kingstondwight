@@ -51,3 +51,7 @@ defaults:
       path: ""
     values:
       layout: "banner-and-content"
+  - scope:
+      path: ""
+    values:
+      layout: "three-section-action"
