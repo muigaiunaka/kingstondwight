@@ -1,12 +1,21 @@
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+/*
+COLORS:
+Dark Grey - FOOTER - #747884
+Pale Grey - Page Edges - #D8D5D2
+Blue - Iconography - #2B79A0
+Aqua Teal Blue - Contrast - #08B4BC
+Orange - Contrast - #F77B00
+Brownish - Contrast - #87615C
+*/
 
 button {
     height: 44px;
     min-width: 200px;
     color: #fff;
-    background-color: rgb(51,115,170);
+    background-color: #2B79A0;
     border-radius: 3px;
     border: none;
     font-size: 18px;
@@ -16,18 +25,18 @@ button {
 }
 
 button:hover {
-    color: rgb(51,115,170);
+    color: #2B79A0;
     background-color: #fff;
-    border: 1px solid rgb(51,115,170);
+    border: 1px solid #2B79A0;
 }
 
 button.whiteBtn {
     background-color: #fff;
-    color: rgb(51,115,170);
+    color: #2B79A0;
 }
 
 button.whiteBtn:hover {
-    background-color: rgb(51,115,170);
+    background-color: #2B79A0;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -39,14 +48,14 @@ h1 {
 h2 {
     font-family: Montserrat, sans-serif;
     font-size: 24px;
-    color: rgb(51,115,170);
+    color: #2B79A0;
     line-height: 1.5;
 }
 
 h3 {
     font-family: Montserrat, sans-serif;
     font-size: 24px;
-    color: rgb(51,115,170);
+    color: #2B79A0;
     line-height: 1.5;
 }
 
@@ -132,8 +141,8 @@ header > div > h3 {
 
 header nav {
     background-color: lightgrey;
-    border-top: 1px solid rgb(51,115,170);
-    border-bottom: 1px solid rgb(51,115,170);
+    border-top: 1px solid #2B79A0;
+    border-bottom: 1px solid #2B79A0;
 }
 
 header nav ul {
@@ -152,7 +161,7 @@ header nav ul {
 header nav ul a {
     display: inline-block;
     padding: 15px;
-    color: rgb(51,115,170);;
+    color: #2B79A0;;
     font-size: 18px;
     text-transform: uppercase;
     /*font-family: "Roboto";*/
@@ -160,12 +169,12 @@ header nav ul a {
 
 header nav ul a:hover {
     color: #fff;
-    background-color: rgb(51,115,170);;
+    background-color: #2B79A0;;
     transition:all 0.3s ease;
 }
 
 footer{
-    background-color: rgb(77,77,77);
+    background-color: #747884;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -225,7 +234,7 @@ img {
 }
 
 .bg-blue {
-    background-color: rgb(51,115,170);
+    background-color: #2B79A0;
 }
 
 .content-container {
@@ -278,7 +287,7 @@ img {
 --------------------------------------------------------------*/
 
 .our-focus {
-    background-color: rgb(51,115,170);
+    background-color: #2B79A0;
     display: block;
     margin: auto;
     float: left;
@@ -319,7 +328,7 @@ img {
 
 .our-focus div a button {
     background-color: #fff;
-    color: rgb(51,115,170);
+    color: #2B79A0;
 }
 
 .process {
@@ -338,12 +347,12 @@ img {
     max-width: 80px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: rgb(51,115,170);
+    background: #08b4bc;
     padding: 10px;
 }
 
 .process div small {
-    color: rgb(51,115,170);
+    color: #08b4bc;
 }
 
 .about {
@@ -359,7 +368,7 @@ img {
 # Content Page Template Styles
 --------------------------------------------------------------*/
 
-.careerBanner, .teamBanner {
+.careerBanner, .teamBanner, .homeBanner {
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -374,6 +383,8 @@ img {
     -webkit-align-items: center;
     justify-content: center;
     -webkit-justify-content: center;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
 }
 
 .careerBanner {
@@ -390,9 +401,24 @@ img {
     ), url('../img/BannerBuildYourTeam.png') fixed;
 }
 
+.homeBanner {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    padding: 60px;
+    background-repeat:no-repeat;
+    background-position:left bottom; /* or 0&#37; 100% */
+    background-image: url('../img/kdaHome.png');
+}
+
+.homeBanner * {
+    color:#2B79A0;
+}
+
 .action-banner {
     color: #fff;
-    background-color: rgb(51,115,170);
+    background-color: #2B79A0;
     display: block;
     text-align: center;
     padding-top: 15px;
@@ -554,7 +580,7 @@ img {
     }
 
     header {
-        border-bottom: 1px solid rgb(51,115,170);
+        border-bottom: 1px solid #2B79A0;
     }
 
     header > div > h3 {
@@ -611,7 +637,7 @@ img {
     }
 
     header {
-        border-bottom: 1px solid rgb(51,115,170);
+        border-bottom: 1px solid #2B79A0;
     }
 
     #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
