@@ -20,7 +20,7 @@ subtitle: "The Jekyll-Forestry theme for Kingston Dwight Associates"
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
+url: "http://muigaiunaka.github.io" # the base hostname & protocol for your site
 baseurl: "/kingstondwight"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
@@ -56,7 +56,7 @@ defaults:
         categories: []
         description: ""
   - scope:
-      path: ""
+      path: "team"
       type: "team"
     values:
       layout: "team-post"
