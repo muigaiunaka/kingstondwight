@@ -45,6 +45,10 @@ descriptions:
 collections:
   team:
     output: true
+  testimonials:
+    output: true
+  jobs:
+      output: true
 
 defaults:
   - scope:
@@ -65,3 +69,18 @@ defaults:
       position: "Head of HR"
       email: "john123@kingstondwight.com"
       image: /img/team/PortraitMike.png
+  - scope:
+        path: "testimonials"
+        type: "testimonials"
+    values:
+      title: "John Smith Testimonial"
+      author: "Michael Jackson"
+      position: "Universal Records Singer and Greatest Artist Ever"
+  - scope:
+        path: "jobs"
+        type: "jobs"
+    values:
+      layout: "jobs"
+      title: ""
+      email: ""
+      banner: ""

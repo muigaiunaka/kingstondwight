@@ -47,15 +47,12 @@ permalink: /career/
         <p>
             A few select active searches:
         </p>
-        {% for member in site.categories.positions %}
-
-        {% endfor %}
         <ul>
-            <a><li></li></a>
-            <a><li>Vice President</li></a>
-            <a><li>Vice President</li></a>
-            <a><li>Vice President</li></a>
+        {% for opportunity in site.opportunities %}
+            <a href="{{ opportunity.url }}"><li>{{ opportunity.title }}</li></a>
+        {% endfor %}
         </ul>
+
     </div>
     <div class="action-banner col-xs-12 wrapper">
         <p class="wrapper">

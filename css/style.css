@@ -9,7 +9,16 @@ Blue - Iconography - #2B79A0
 Aqua Teal Blue - Contrast - #08B4BC
 Orange - Contrast - #F77B00
 Brownish - Contrast - #87615C
+
+FONTS:
+Oswald
+Droid Serif
 */
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #747884;
+}
 
 button {
     height: 44px;
@@ -42,29 +51,37 @@ button.whiteBtn:hover {
 }
 
 h1 {
-
+    font-family: 'Oswald', sans-serif;
 }
 
 h2 {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 24px;
     color: #2B79A0;
     line-height: 1.5;
 }
 
 h3 {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 24px;
     color: #2B79A0;
     line-height: 1.5;
 }
 
-h4 {}
-h5 {}
-h6 {}
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+    font-family: 'Droid Serif', serif;
+}
+
+h6 {
+    font-family: 'Droid Serif', serif;
+}
 
 a {
-    font-family: Roboto, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 a:hover {
@@ -73,13 +90,19 @@ a:hover {
 }
 
 p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Droid Serif', serif;
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #747884;
+}
+
+li {
+    font-family: 'Droid Serif', serif;
 }
 
 small {
+    font-family: 'Droid Serif', serif;
     margin: 15px auto;
     font-size: 90%;
     float: left;
@@ -383,10 +406,6 @@ img {
 }
 
 .homeBanner {
-    align-items: flex-start;
-    -webkit-align-items: flex-start;
-    justify-content: flex-start;
-    -webkit-justify-content: flex-start;
     padding: 60px;
     background-repeat:no-repeat;
     background-position:left bottom; /* or 0&#37; 100% */
@@ -411,6 +430,13 @@ img {
     -webkit-flex-flow: column wrap;
 }
 
+.homeBanner {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
 .homeBanner * {
     color:#2B79A0;
 }
@@ -422,6 +448,10 @@ img {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.action-banner p {
+    color: #fff;
 }
 
 .action-banner button {
@@ -446,9 +476,17 @@ img {
 }
 
 .testimonials blockquote{
-
+    border-left: none;
 }
 
+.testimonials blockquote p {
+    font-family: Georgia, serif;
+    color: #747884;
+}
+
+.testimonials blockquote small {
+    color: #2b79a0;
+}
 /*--------------------------------------------------------------
 # Hamburger Menu
 --------------------------------------------------------------*/
