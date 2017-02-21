@@ -60,5 +60,8 @@ defaults:
       type: "team"
     values:
       layout: "team-post"
-      thumbnail: ""
       category: "team"
+      title: "John Smith"
+      position: "Head of HR"
+      email: "john123@kingstondwight.com"
+      image: /img/team/PortraitMike.png

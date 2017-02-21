@@ -5,12 +5,12 @@ layout: page
 
 <section class="wrapper col-md-12 team-member">
     <div class="col-md-7">
-        <h3>{{ page.name }} , {{ page.position }}</h3>
+        <h3>{{ page.title }} , {{ page.position }}</h3>
         <p>{{ page.content }}</p>
     </div>
 
     <div class="col-md-5 team-post">
-        <img src="{{ site.baseurl }}/img/team/{{ page.photo }}" />
+        <img src="{{ site.baseurl }}/{{ page.image }}" />
         <p>{{ page.email }}</p>
     </div>
 </section>

@@ -1,9 +1,9 @@
 ---
 layout: team-post
-name: "Cornelius (Connie) O'Leary"
+title: "Cornelius (Connie) O'Leary"
 position: "Vice President"
 email: "coleary@kingstondwight.com"
-thumbnail: "PortraitConnie.png"
+image: "PortraitConnie.png"
 ---
 
 Connie has been in the recruiting profession since his graduation from Boston College.  He worked at Northeastern University for approximately 20 years. While earning his Masters Degree, Connie advanced to a Director of Graduate Admissions for one of the colleges within the University.  Kingston Dwight Associates represented the right fit when he decided to move into business. 
