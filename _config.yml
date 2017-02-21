@@ -50,7 +50,7 @@ defaults:
         description: ""
   - scope:
       path: ""
-      type: "page"
+      type: "pages"
     values:
       layout: "banner-and-content"
       categories: []

@@ -368,30 +368,11 @@ img {
 # Content Page Template Styles
 --------------------------------------------------------------*/
 
-.careerBanner, .teamBanner, .homeBanner {
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    height: 480px;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
-    flex-flow: column wrap;
-    -webkit-flex-flow: column wrap;
-}
-
 .careerBanner {
     background: linear-gradient(
             rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)
-    ), url('../img/BannerAdvanceYourCareer.png') fixed;
+    ), url('../img/BannerAdvanceYourCareer.png') no-repeat 100% 100% / auto 100% fixed;
 }
 
 .teamBanner {
@@ -410,6 +391,24 @@ img {
     background-repeat:no-repeat;
     background-position:left bottom; /* or 0&#37; 100% */
     background-image: url('../img/kdaHome.png');
+}
+
+.careerBanner, .teamBanner, .homeBanner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
 }
 
 .homeBanner * {
