@@ -92,7 +92,7 @@ a:hover {
 
 p {
     font-family: 'Droid Serif', serif;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #747884;
@@ -108,6 +108,11 @@ small {
     font-size: 90%;
     float: left;
     width: 100%;
+}
+
+ul, ol {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -183,19 +188,21 @@ header nav ul {
 }
 
 header nav ul a {
-    font-family: "Oswald", "Helvetica", sans-serif;
     display: inline-block;
     padding: 15px;
     color: #2B79A0;;
     font-size: 18px;
     text-transform: uppercase;
-    /*font-family: "Roboto";*/
 }
 
 header nav ul a:hover {
     color: #fff;
     background-color: #2B79A0;;
     transition:all 0.3s ease;
+}
+
+header nav ul a li {
+    font-family: "Oswald", "Helvetica", sans-serif;
 }
 
 footer{
@@ -606,8 +613,8 @@ img {
         text-align: center;
     }
 
-    .hero-banner {
-        max-height: 360px;
+    .homeBaner {
+        height: 360px;
     }
 
     .hero-banner img {
@@ -661,7 +668,7 @@ img {
         height: auto;
     }
 
-    .hero-banner {
+    .homeBanner {
         max-height: 360px;
     }
 
