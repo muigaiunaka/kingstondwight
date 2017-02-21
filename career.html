@@ -48,8 +48,8 @@ permalink: /career/
             A few select active searches:
         </p>
         <ul>
-        {% for opportunity in site.opportunities %}
-            <a href="{{ opportunity.url }}"><li>{{ opportunity.title }}</li></a>
+        {% for job in site.jobs %}
+            <a href="{{ job.url }}"><li>{{ job.title }}</li></a>
         {% endfor %}
         </ul>
 
@@ -59,6 +59,6 @@ permalink: /career/
             If Relocation is a consideration in your Search Plan, we can help you!
             Learn how our extensive network of contacts can access opportunity for you.
         </p>
-        <a href="{{ site.baseurl }}/opportunities"><button class="whiteBtn">Relocation Opportunities</button></a>
+        <a href="{{ site.baseurl }}/relocation-opportunities"><button class="whiteBtn">Relocation Opportunities</button></a>
     </div>
 </section>

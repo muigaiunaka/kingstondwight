@@ -412,9 +412,10 @@ img {
     background-image: url('../img/kdaHome.png');
 }
 
-.careerBanner, .teamBanner, .homeBanner {
+.careerBanner, .teamBanner, .homeBanner, .jobsBanner {
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #87615c;
     height: 480px;
     width: 100%;
     color: #fff;
@@ -428,6 +429,10 @@ img {
     -webkit-justify-content: center;
     flex-flow: column wrap;
     -webkit-flex-flow: column wrap;
+}
+
+.jobsBanner {
+    height: 180px;
 }
 
 .homeBanner {

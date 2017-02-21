@@ -48,7 +48,7 @@ collections:
   testimonials:
     output: true
   jobs:
-      output: true
+    output: true
 
 defaults:
   - scope:
@@ -81,6 +81,6 @@ defaults:
         type: "jobs"
     values:
       layout: "jobs"
-      title: ""
-      email: ""
-      banner: ""
+      title: "Active Search"
+      email: "jhyde@kingstondwight.com"
+      banner: "Contact Joe Hyde, Partner, Kingston Dwight"
