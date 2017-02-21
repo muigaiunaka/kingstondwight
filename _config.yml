@@ -15,12 +15,12 @@ keep_files:
 
 # Site settings
 title: Kingston Dwight Associates
-subtitle: "A free HTML5 agency template"
+subtitle: "The Jekyll-Forestry theme for Kingston Dwight Associates"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
+url: "http://muigaiunaka.github.io" # the base hostname & protocol for your site
 baseurl: "/kingstondwight"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
@@ -38,6 +38,12 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+  - cat: team
+    desc: "Team member category"
+
+  - cat: testimonials
+    desc: "Testimonials made by clients of Kingston Dwight Associates"
 # Forestry Settings
 defaults:
   - scope:
@@ -50,15 +56,22 @@ defaults:
         description: ""
   - scope:
       path: ""
-      type: "pages"
+      type: "Banner and Content"
     values:
       layout: "banner-and-content"
       categories: []
       description: "Template for Content underneath a banner image"
   - scope:
       path: ""
-      type: "posts"
+      type: "Three Section Action"
     values:
       layout: "three-section-action"
       categories: []
       description: "Template for 3 sections and an action banner"
+  - scope:
+        path: ""
+        type: "Team Post"
+      values:
+        layout: "team-post"
+        categories: ['team']
+        description: "Template for 3 sections and an action banner"
