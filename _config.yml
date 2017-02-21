@@ -73,5 +73,5 @@ defaults:
         type: "Team Post"
       values:
         layout: "team-post"
-        categories: 'team'
+        categories: "team"
         description: "Template for 3 sections and an action banner"
