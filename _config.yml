@@ -38,20 +38,27 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
-
+# Forestry Settings
 defaults:
   - scope:
         path: ""
         type: "posts"
     values:
+        layout: "post"
         thumbnail: ""
         categories: []
         description: ""
   - scope:
       path: ""
+      type: "page"
     values:
       layout: "banner-and-content"
+      categories: []
+      description: "Template for Content underneath a banner image"
   - scope:
       path: ""
+      type: "posts"
     values:
       layout: "three-section-action"
+      categories: []
+      description: "Template for 3 sections and an action banner"
