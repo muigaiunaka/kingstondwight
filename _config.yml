@@ -60,5 +60,5 @@ defaults:
       type: "team"
     values:
       layout: "team-post"
-      categories: []
-      description: "Template for team posts"
+      thumbnail: ""
+      category: "team"

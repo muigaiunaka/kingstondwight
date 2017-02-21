@@ -1,8 +1,8 @@
 ---
 layout: team-post
-title: "Joseph Hyde"
+name: "Joseph Hyde"
 position: "Managing Director"
-category: "team"
+email: "jhyde@kingstondwight.com"
 photo: "PortraitJoe.png"
 ---
 

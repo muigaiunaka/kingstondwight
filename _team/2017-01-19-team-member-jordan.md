@@ -1,8 +1,8 @@
 ---
 layout: team-post
-title: "Jordan Antunes"
+name: "Jordan Antunes"
 position: "Vice President"
-category: "team"
+email: "jantunes@kingstondwight.com"
 photo: "PortraitJordan.png"
 ---
 

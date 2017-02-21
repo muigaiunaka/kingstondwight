@@ -1,8 +1,8 @@
 ---
 layout: team-post
-title: "Michael O'Leary"
+name: "Michael O'Leary"
 position: "Managing Director"
-category: "team"
+email: "moleary@kingstondwight.com"
 photo: "PortraitMike.png"
 ---
 

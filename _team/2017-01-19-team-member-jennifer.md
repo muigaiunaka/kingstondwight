@@ -1,8 +1,8 @@
 ---
 layout: team-post
-title: "Jennifer Lynch"
+name: "Jennifer Lynch"
 position: "Partner"
-category: "team"
+email: "jlynch@kingstondwight.com"
 photo: "PortraitJennifer.png"
 ---
 
