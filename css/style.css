@@ -14,8 +14,9 @@ FONTS:
 Oswald
 Droid Serif
 */
+
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", "Helvetica", sans-serif;
     font-size: 16px;
     color: #747884;
 }
@@ -51,25 +52,25 @@ button.whiteBtn:hover {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", "Helvetica", sans-serif;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", "Helvetica", sans-serif;
     font-size: 24px;
     color: #2B79A0;
     line-height: 1.5;
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", "Helvetica", sans-serif;
     font-size: 24px;
     color: #2B79A0;
     line-height: 1.5;
 }
 
 h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", "Helvetica", sans-serif;
 }
 
 h5 {
@@ -81,7 +82,7 @@ h6 {
 }
 
 a {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", "Helvetica", sans-serif;
 }
 
 a:hover {
@@ -182,6 +183,7 @@ header nav ul {
 }
 
 header nav ul a {
+    font-family: "Oswald", "Helvetica", sans-serif;
     display: inline-block;
     padding: 15px;
     color: #2B79A0;;
