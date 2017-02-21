@@ -43,12 +43,8 @@ descriptions:
     desc: "Team member category"
 # Forestry Settings
 collections:
-  team_post:
+  team:
     output: true
-  banner_and_content:
-    output: true
-  testimonials:
-      output: true
 
 defaults:
   - scope:
@@ -61,21 +57,8 @@ defaults:
         description: ""
   - scope:
       path: ""
-      type: "banner_and_content"
-    values:
-      layout: "banner-and-content"
-      categories: []
-      description: "Template for Content underneath a banner image"
-  - scope:
-      path: ""
-      type: "team_post"
+      type: "team"
     values:
       layout: "team-post"
       categories: []
       description: "Template for team posts"
-  - scope:
-        path: ""
-        type: "testimonials"
-      values:
-        categories: []
-        description: "Template for testimonials"
