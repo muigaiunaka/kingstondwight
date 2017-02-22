@@ -18,8 +18,8 @@ permalink: /team/
         </div>
         <div class="col-xs-12 col-sm-8">
             <h3>{{ member.title }}, {{ member.position }}</h3>
-            <p>{{ member.content | strip_html | truncatewords: 60 }}</p>
-            <a href="{{ member.url | prepend: site.baseurl }}"><button class="col-xs-12 col-sm-6 col-md-3 pull-right">Read More</button></a>
+            <p>{{ member.content }}</p>
+            <!--<a href="{{ member.url | prepend: site.baseurl }}"><button class="col-xs-12 col-sm-6 col-md-3 pull-right">Read More</button></a>-->
         </div>
     </section>
     {% endfor %}
