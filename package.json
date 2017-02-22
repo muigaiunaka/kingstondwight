@@ -1,0 +1,25 @@
+{
+  "name": "resilient-lab",
+  "version": "1.0.0",
+  "description": "\"Jekyll static site generator with Forestry CMS deployed using Heroku\"",
+  "main": "app.js",
+  "dependencies": {
+    "dropbox": "^2.5.1",
+    "express": "^4.14.1",
+    "formidable": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muigaiunaka/kingstondwight.git"
+  },
+  "author": "\"Resilient Lab\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muigaiunaka/kingstondwight/issues"
+  },
+  "homepage": "https://github.com/muigaiunaka/kingstondwight#readme"
+}

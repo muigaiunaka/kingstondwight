@@ -48,7 +48,9 @@ permalink: /career/
             A few select active searches:
         </p>
         <ul>
-        {% for job in site.jobs %}
+            <!-- Sets the order to be the oldest posted first-->
+            {% assign jobs = site.jobs | sort: 'date' %}
+        {% for job in jobs%}
             <a href="{{ site.baseurl }}{{ job.url }}"><li>{{ job.title }}</li></a>
         {% endfor %}
         </ul>

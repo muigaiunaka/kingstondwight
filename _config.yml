@@ -59,6 +59,15 @@ defaults:
         thumbnail: ""
         categories: []
         description: ""
+- scope:
+        path: ""
+        type: ""
+    values:
+        layout: "banner-and-content"
+        text: ["First block of text", "Second block of text", "third block of text"]
+        images: []
+        banner: "Action banner content message goes right here"
+        cta: "CTA for Banner"
   - scope:
       path: "team"
       type: "team"

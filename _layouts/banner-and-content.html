@@ -2,19 +2,24 @@
 layout: page
 ---
 
-<section class="three-sections-action">
-    <section>
-        <p>{{page.text}}</p>
-        <p>{{page.image}}</p>
-    </section>
-    <section>
-        <p>{{page.text}}</p>
-        <p>{{page.image}}</p>
-    </section>
-    <section>
-        <p>{{page.text}}</p>
-        <p>{{page.image}}</p>
-    </section>
-    <section class="action-banner">{{page.banner}}</section>
+<section class="wrapper three-sections-action col-xs-12 bg-gray">
+    <div class="col-xs-12 bg-white wrapper">
+        <div>
+            <h3>{{page.text[0]}}</h3>
+            <p>{{ page.images[0] }}</p>
+        </div>
+        <div>
+            <h3>{{page.text[1]}}</h3>
+            <p>{{ page.images[1] }}</p>
+        </div>
+        <div>
+            <h3>{{page.text[2]}}</h3>
+            <p>{{ page.images[2] }}</p>
+        </div>
+        <section class="action-banner">
+            {{page.banner}}
+            <a href="{{ site.baseurl }}/{{page.url}}"><button class="whiteBtn">Retained Search</button></a>
+        </section>
+    </div>
 </section>
 
