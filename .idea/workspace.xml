@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f5e15-8385-4408-92e9-52ef3fe583c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_jobs/2017-02-20-jobs-assistant-controller.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_jobs/2017-02-20-jobs-senior-accountant.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_jobs/2017-02-20-jobs-senior-auditor.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/position-post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_team/2017-01-19-team-member-jennifer.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_team/2017-01-19-team-member-jordan.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_team/2017-01-19-team-member-joseph.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_team/2017-01-19-team-member-mike.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_testimonials/2017-02-20-testimonial-connie.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_testimonials/2017-02-20-testimonial-jennifer.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_testimonials/2017-02-20-testimonial-jordan.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_testimonials/2017-02-20-testimonial-mike.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/banner-and-content.html" afterPath="$PROJECT_DIR$/_layouts/banner-and-content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_team/2017-01-19-team-member-connie.md" afterPath="$PROJECT_DIR$/_team/2017-01-19-team-member-connie.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildteam.html" afterPath="$PROJECT_DIR$/buildteam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/career.html" afterPath="$PROJECT_DIR$/career.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/Readme.md" afterPath="$PROJECT_DIR$/node_modules/formidable/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/formidable/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relocation-opportunities.html" afterPath="$PROJECT_DIR$/relocation-opportunities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume.html" afterPath="$PROJECT_DIR$/resume.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/retained-search.html" afterPath="$PROJECT_DIR$/retained-search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/talent-acquisition.html" afterPath="$PROJECT_DIR$/talent-acquisition.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +23,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="243">
+              <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -198,9 +168,9 @@
         <option value="$PROJECT_DIR$/relocation-opportunities.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/buildteam.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/talent-acquisition.html" />
         <option value="$PROJECT_DIR$/_layouts/banner-and-content.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -437,12 +407,12 @@
       <workItem from="1487183640617" duration="6870000" />
       <workItem from="1487597594420" duration="9391000" />
       <workItem from="1487647813404" duration="12154000" />
-      <workItem from="1487774558130" duration="5642000" />
+      <workItem from="1487774558130" duration="5880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96098000" />
+    <option name="totallyTimeSpent" value="96336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="191" width="1162" height="679" extended-state="0" />
@@ -883,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        <state relative-caret-position="243">
+          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           <folding />
         </state>
       </provider>
