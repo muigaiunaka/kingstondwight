@@ -96,11 +96,12 @@ p {
     font-size: 16px;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #747884;
+    color: #2B79A0;
 }
 
 li {
     font-family: "Oswald", "Helvetica", sans-serif;
+    color: #2B79A0;
 }
 
 small {
@@ -266,8 +267,17 @@ img {
 }
 
 .content-container {
-    max-width: 800px;
-    margin: auto;
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+.content {
+    margin: 15px auto 30px;
+}
+
+.content:nth-of-type(even) {
+    flex-flow: row-reverse wrap;
+    -webkit-flex-flow: row-reverse wrap;
 }
 
 /*--------------------------------------------------------------
@@ -338,6 +348,7 @@ img {
 .our-focus .focuses li {
     list-style: none;
     margin: 10px auto;
+    color: #fff;
 }
 
 .our-focus .focuses li img {
@@ -466,10 +477,6 @@ img {
     /*margin: auto;*/
 }
 
-.wrapper > .wrapper > div {
-    margin: 30px auto;
-}
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -493,7 +500,7 @@ img {
 .testimonials blockquote p {
     font-family: "Oswald", "Helvetica", serif;
     font-style: italic;
-    color: #747884;
+    color: #2B79A0;
 }
 
 .testimonials blockquote small {

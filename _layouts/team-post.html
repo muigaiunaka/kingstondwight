@@ -4,13 +4,15 @@ layout: page
 <!-- Team Member Start -->
 
 <section class="wrapper col-md-12 team-member">
-    <div class="col-md-7">
-        <h3>{{ page.title }}, {{ page.position }}</h3>
-        <p>{{ page.content }}</p>
-    </div>
+    <div class="content-container">
+        <div class="col-md-7">
+            <h3>{{ page.title }}, {{ page.position }}</h3>
+            <p>{{ page.content }}</p>
+        </div>
 
-    <div class="col-md-5 team-post">
-        <img src="{{ site.baseurl }}{{ page.image }}" />
-        <a href="mailto:{{ page.email }}"><button class="col-xs-12 col-md-6">Let's Talk</button></a>
+        <div class="col-md-5 team-post">
+            <img src="{{ site.baseurl }}{{ page.image }}" />
+            <a href="mailto:{{ page.email }}"><button class="col-xs-12 col-md-6">Let's Talk</button></a>
+        </div>
     </div>
 </section>

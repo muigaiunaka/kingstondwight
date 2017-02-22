@@ -6,34 +6,37 @@ permalink: /team/
 
 
 <!-- Team Start -->
-<!-- Sets the order to be the oldest posted first-->
-{% assign team = site.team | sort: 'date' %}
-<!-- reverse the sorted order -->
-{% for member in team reversed %}
-<section class="wrapper team-individual col-xs-12">
-    <div class="col-xs-12 col-sm-4">
-        <img src="{{ site.baseurl }}{{member.image}}" class="img-responsive"/>
-        <a href="mailto:{{ member.email }} "><button class="col-xs-12 col-sm-6 col-md-12">Let's Talk</button></a>
-    </div>
-    <div class="col-xs-12 col-sm-8">
-        <h3>{{ member.title }}, {{ member.position }}</h3>
-        <p>{{ member.content | strip_html | truncatewords: 60 }}</p>
-        <a href="{{ member.url | prepend: site.baseurl }}"><button class="col-xs-12 col-sm-6 col-md-3 pull-right">Read More</button></a>
-    </div>
-</section>
-{% endfor %}
+<div class="content-container">
+    <!-- Sets the order to be the oldest posted first-->
+    {% assign team = site.team | sort: 'date' %}
+    <!-- reverse the sorted order -->
+    {% for member in team reversed %}
+    <section class="team-individual col-xs-12">
+        <div class="col-xs-12 col-sm-4">
+            <img src="{{ site.baseurl }}{{member.image}}" class="img-responsive"/>
+            <a href="mailto:{{ member.email }} "><button class="col-xs-12 col-sm-6 col-md-12">Let's Talk</button></a>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+            <h3>{{ member.title }}, {{ member.position }}</h3>
+            <p>{{ member.content | strip_html | truncatewords: 60 }}</p>
+            <a href="{{ member.url | prepend: site.baseurl }}"><button class="col-xs-12 col-sm-6 col-md-3 pull-right">Read More</button></a>
+        </div>
+    </section>
+    {% endfor %}
+</div>
 
 <!-- Testimonials -->
 <section class="testimonials wrapper col-xs-12">
-    <h1>Testimonials</h1>
-    <!-- Sets the order to be the oldest posted first-->
-    {% assign testimonials = site.testimonials | sort: 'date' %}
-    <!-- reverse the sorted order -->
-    {% for testimonial in testimonials reversed %}
-    <blockquote class="blockquote col-xs-12 col-sm-6">
-        {{ testimonial.content }}
-        <small class="text-right">{{ testimonial.author }}, {{testimonial.position}}</small>
-    </blockquote>
-    {% endfor %}
-
+    <div class="content-container">
+        <h1>Testimonials</h1>
+        <!-- Sets the order to be the oldest posted first-->
+        {% assign testimonials = site.testimonials | sort: 'date' %}
+        <!-- reverse the sorted order -->
+        {% for testimonial in testimonials reversed %}
+        <blockquote class="blockquote col-xs-12 col-sm-6">
+            {{ testimonial.content }}
+            <small class="text-right">{{ testimonial.author }}, {{testimonial.position}}</small>
+        </blockquote>
+        {% endfor %}
+    </div>
 </section>
