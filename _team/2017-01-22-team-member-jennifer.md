@@ -1,9 +1,10 @@
 ---
 layout: team-post
-title: "Jennifer Lynch"
-position: "Partner"
-email: "jlynch@kingstondwight.com"
-image: /img/team/PortraitJennifer.png
+title: Jennifer Lynch
+position: Partner
+email: jlynch@kingstondwight.com
+image: "/img/team/PortraitJennifer.png"
+date: '2017-01-22T00:00:00.000+00:00'
 ---
 
 After receiving her MBA from Tulane University, Jennifer earned her CPA in public accounting.  She co- founded Kingston Dwight Associates after 5 years of experience with a national recruiting firm.  
