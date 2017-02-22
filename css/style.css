@@ -202,6 +202,10 @@ header nav ul a:hover {
     transition:all 0.3s ease;
 }
 
+header nav ul a:hover li {
+    color: #fff;
+}
+
 footer{
     background-color: #747884;
     padding-top: 15px;
