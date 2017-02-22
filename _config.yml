@@ -61,10 +61,10 @@ defaults:
         description: ""
 - scope:
         path: ""
-        type: ""
+        type: "pages"
     values:
         layout: "banner-and-content"
-        text: ["First block of text", "Second block of text", "third block of text"]
+        text: []
         images: []
         banner: "Action banner content message goes right here"
         cta: "CTA for Banner"
