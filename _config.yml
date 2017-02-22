@@ -59,7 +59,7 @@ defaults:
         thumbnail: ""
         categories: []
         description: ""
-- scope:
+  - scope:
         path: ""
         type: "pages"
     values:
@@ -77,7 +77,7 @@ defaults:
       title: "John Smith"
       position: "Head of HR"
       email: "john123@kingstondwight.com"
-      image: PortraitMike.png
+      image: /img/team/PortraitMike.png
   - scope:
         path: "testimonials"
         type: "testimonials"
