@@ -203,7 +203,7 @@ header nav ul a:hover {
 }
 
 header nav ul a:hover li {
-    color: #fff;
+    color: #fff!important;
 }
 
 footer{
