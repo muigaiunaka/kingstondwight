@@ -27,7 +27,7 @@ button {
     min-width: 200px;
     color: #fff;
     background-color: #2B79A0;
-    border-radius: 3px;
+    border-radius: 5px;
     border: none;
     font-size: 18px;
     margin: 15px auto;
@@ -509,6 +509,11 @@ img {
 
 .testimonials blockquote small {
     color: #2b79a0;
+}
+
+.active-searches button {
+    float: left;
+    clear: both;
 }
 /*--------------------------------------------------------------
 # Hamburger Menu
