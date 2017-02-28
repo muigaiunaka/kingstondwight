@@ -13,15 +13,15 @@ permalink: /resume/
             if you are looking for advice about your current position,
             thinking about a job change or in a search for a new position.
         </p>
-        <form>
+        <form action="https://formspree.io/muigai@resilientcoders.org" method="POST">
             <fieldset class="col-md-6">
                 <label for="resumeName">Full Name</label>
-                <input id="resumeName" class="form-control" type="text" required placeholder="Full Name" />
+                <input id="resumeName" name="name" class="form-control" type="text" required placeholder="Full Name" />
             </fieldset>
 
             <fieldset class="col-xs-12 col-md-6">
                 <label for="reason">Reason for Inquiry</label>
-                <select id="reason" class="form-control" type="text" required >
+                <select name="inquiry" id="reason" class="form-control" type="text" required >
                     <option disabled selected>Reason for Inquiry</option>
                     <option>Career Guidance</option>
                     <option>Selective/Active Search</option>
@@ -31,22 +31,32 @@ permalink: /resume/
 
             <fieldset class="col-xs-12 col-md-6">
                 <label for="resumeEmail">Email</label>
-                <input id="resumeEmail" class="form-control" type="text" required placeholder="Email"/>
+                <input name="email" id="resumeEmail" class="form-control" type="text" required placeholder="Email"/>
             </fieldset>
 
             <fieldset class="col-xs-12 col-md-6">
                 <label for="resumePhone">Phone</label>
-                <input id="resumePhone" class="form-control" type="text" placeholder="281-330-8004"/>
+                <input name="phone" id="resumePhone" class="form-control" type="text" placeholder="281-330-8004"/>
             </fieldset>
 
             <fieldset class="col-xs-12">
                 <label for="resumeMessage">Message</label>
-                <textarea id="resumeMessage" class="form-control"></textarea>
+                <textarea name="message" id="resumeMessage" class="form-control"></textarea>
             </fieldset>
             <fieldset class="col-md-12">
-                <label></label>
-                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-                <small id="fileHelp" class="form-text text-muted">Upload Resume
+                <!--<form action="https://formspree.io/your@email.com"-->
+                      <!--method="POST">-->
+                    <!--<input type="text" name="name">-->
+                    <!--<input type="email" name="_replyto">-->
+                    <!--<input type="submit" value="Send">-->
+                <!--</form>-->
+                <!--<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">-->
+                <!--<button class="upload-btn">Upload File</button>-->
+                <!--<input id="upload-input" type="file" name="uploads" multiple="multiple">-->
+                <input class="btn" type="hidden" role="uploadcare-uploader" name="my_file" />
+
+                <small id="fileHelp" class="form-text text-muted">
+                    Upload Resume
                 </small>
             </fieldset>
             <fieldset class="col-xs-12">
