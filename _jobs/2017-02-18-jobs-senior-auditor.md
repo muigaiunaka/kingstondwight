@@ -17,8 +17,7 @@ Reporting to the Internal Audit Manager, the Senior Internal Auditor will partic
 
 QUALIFICATIONS:
 
-*   3 plus years of progressive audit experience (public accounting and/or audit for a large business organization preferred)  
-
+*   3 plus years of progressive audit experience (public accounting and/or audit for a large business organization preferred)
 *   Professional designation in accounting or auditing such as a CPA and/or a CIA are a plus
 *   Experience with Section 404 of the Sarbanes Oxley Act, business integrity compliance and international operations are strongly preferred
 *   Willingness to travel 25% domestically and internationally is necessary
