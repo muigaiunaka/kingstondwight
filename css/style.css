@@ -493,6 +493,11 @@ img {
     /*display: none;*/
 }
 
+.uploadcare-widget-button {
+    background-color: #2b79a0;
+    margin: 15px auto;
+}
+
 /*--------------------------------------------------------------
 # Content Pages
 --------------------------------------------------------------*/
